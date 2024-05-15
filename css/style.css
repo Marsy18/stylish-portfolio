@@ -1,0 +1,564 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*end of css reset*/
+
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+/*stylish portfolio*/
+#hero {
+    height: 100vh;
+    background-image: url("../images/yellow-background-pencil-designer\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    text-align: center;
+    color: rgba(36, 35, 35, 0.9);
+}
+
+
+#stylish-portfolio h1 {
+    font-size: 64px;
+    color: rgba(36, 35, 35, 0, 9);
+    padding-top: 250px;
+  font-family: regular; 
+  font-weight: bold; 
+}
+
+#hero p {
+    font-size: 20px;
+    font-family: regular;
+   font-weight: bold;
+    font-style: italic;
+}
+
+#hero button {
+    background-color: rgb(53, 129, 159);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 18px;
+    font-size: 14px;
+    font-family: bold !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+#hero button:hover{
+background-color: rgb(221, 144, 0);
+}
+
+
+
+/*About*/
+#About {
+    height: 50vh;
+    text-align: center;
+}
+
+#About h2 {
+    font-size: 28px;
+    padding-top: 120px;
+    padding-bottom: 5px;
+    font-family: bold;
+    color: rgba(36, 35, 35, 0.9);
+
+}
+
+#About p {
+    font-family: regular;
+    color: rgba(36, 35, 35, 0.9);
+}
+
+#About button {
+    background-color: rgb(36, 35, 35);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 18px;
+    font-size: 14px;
+    font-family: bold;
+    color: rgb(255, 255, 255);
+    width: 170px;
+    border: none;
+    cursor: pointer;
+}
+#About button:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+
+/*services*/
+#services {
+    height: 90vh;
+    background-color: rgba(53, 129, 159);
+    color: rgba(255, 255, 255);
+}
+
+#services h4 {
+
+    color: rgb(221, 144, 0);
+    padding-top: 70px;
+    padding-bottom: none;
+    font-family: bold;
+    text-align: center;
+}
+
+
+
+
+#services-inner {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#services h2 {
+    font-size: 40px;
+    font-family: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+#services-inner h3{
+    font-family: bold;
+    padding-top: 60px;
+  
+}
+#services-inner p{
+    font-family: regular;
+    
+}
+
+#services-inner i{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 90px;
+    border-radius: 100px; 
+    margin-top: 20px; 
+    
+}
+
+#services-inner i #one{
+padding-top: 100px;
+}
+/* end of services */
+
+
+
+/*end of services*/
+
+/*next web*/
+
+#next-web {
+    height: 80vh;
+    background-image: url("../images/4a11cdad-8f62-4741-ba8b-83ec735800d3.jpg");
+    text-align: center;
+    padding-top: 250px;
+    font-family: bold;
+
+}
+
+#next-web h2 {
+    text-align: center;
+    color: rgba(36, 35, 35, 0, 9);
+    font-size: 48px;
+}
+
+
+#next-web button {
+    background-color: rgb(53, 129, 159);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 16px;
+    font-size: 14px;
+    font-family: bold !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 170px;
+    cursor: pointer;
+}
+
+#next-web button:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+/*portfolio*/
+#portfolio {
+    height: 130vh;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 80px;
+
+}
+
+#portfolio h4 {
+    color: rgb(221, 144, 0);
+    font-size: 16px;
+    font-family: regular;
+}
+
+#portfolio H2 {
+    color: rgba(36, 35, 35, 0.9);
+    font-size: 48px;
+    font-family: bold;
+    padding-bottom: 80px;
+}
+
+#portfolio .content-inner h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: bold;
+}
+
+#portfolio .content {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+
+#portfolio .content h3 {
+    margin-top: 170px;
+    font-family: bold;
+    margin-bottom: 10px; 
+    opacity: 0;
+
+}
+#portfolio .content h3:hover {
+    opacity: 1;
+}
+
+
+#portfolio .content p {
+    font-family: regular;
+    font-size: 14px;
+    opacity: 0;
+}
+#portfolio .content p:hover{
+    opacity: 1;
+}
+
+
+#content-inner1 {
+    background-image: url(../images/d16e2910-398f-4b10-91ed-83d6d6a2d4c1.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+
+}
+
+
+#content-inner2 {
+    background-image: url(../images/pencil.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+
+}
+
+#content-inner3 {
+    background-image: url(../images/strawberry.PNG);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+}
+
+#content-inner4 {
+    background-image: url(../images/4a11cdad-8f62-4741-ba8b-83ec735800d3.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+}
+#content-inner1:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transform: 0.3s;
+
+}
+#content-inner2:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transform: 0.3s;
+    
+
+}
+#content-inner3:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transform: 0.3s;
+
+}
+#content-inner4:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transform: 0.3s;
+
+}
+#portfolio .content #content-inner img {
+    width: 600px;
+    padding: none;
+    border: 1px;
+}
+
+
+
+
+
+
+
+/*end of portfolio*/
+
+
+
+/*connect*/
+#connect {
+    background-color: rgb(53, 129, 159);
+    height: 50vh;
+    text-align: center;
+    font-family: bold;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+
+}
+
+#connect .contents {
+    display: flex;
+    padding-top: 50px;
+}
+
+
+#button1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 18px;
+    font-size: 14px;
+    font-family: bold !important;
+    color: rgba(36, 35, 35, 0.9);
+    border: none;
+    width: 150px;
+    cursor: pointer;
+
+
+}
+
+#button2 {
+    background-color: rgb(36, 35, 35);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 18px;
+    font-size: 14px;
+    font-family: bold !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/*end of connect*/
+
+
+#map {
+
+    height: 100vh;
+    width:auto ;
+
+}
+/*footer*/
+footer{
+    height: 40vh;
+}
+
+
+#footer-inner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+footer h4 {
+    padding-top: 70px;
+    font-size: 14px;
+    font-family: regular;
+    color: rgba(36, 35, 35, 0.9);
+    text-align: center;
+
+}
+
+
+
+#footer-inner i {
+    width: 20px;
+    padding: 20px; 
+    
+}
+
+
+/*end of footer*/
+
+/*media queries*/
+
+/*ipad mini*/
+/*hero*/
+@media (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+  
+
+    /*end of hero*/
+
+    /*About*/
+    #About {
+        height: 40px;
+        padding-top: 100px;
+    }
+
+    #About h2 {
+
+        font-size: 35px;
+    }
+
+    #About p {
+        font-size: 16px;
+    }
+
+    /*end of About*/
+    #map{
+        width: 768px;
+    }
+}
+
+/*end of ipad mini*/
+
+
+/*iphone XR*/
+/*hero*/
+@media (max-width:414) {
+    #hero {
+        height: 50vh;
+        background-position: bottom right;
+        padding-top: 30px;
+    }
+
+    #hero #stylish-portfolio {
+        padding-top: 5px;
+    }
+
+    #stylish-portfolio h1 {
+        font-size: 40px;
+    }
+
+    #stylish-portfolio p {
+        font-size: 11px;
+    }
+
+  
+
+    /*end of hero*/
+
+    /*About*/
+    #About {
+        height: 50vh;
+        text-align: center;
+    }
+
+    #About h2 {
+        font-size: 30px;
+    }
+
+    #About p {
+        font-size: 16px;
+    }
+    #About {
+    height: 50vh;
+    text-align: center;
+}
+
+#About h2 {
+    font-size: 28px;
+    padding-top: 120px;
+    padding-bottom: 5px;
+    font-family: bold;
+    color: rgba(36, 35, 35, 0.9);
+
+}
+
+#About p {
+    font-family: regular;
+    color: rgba(36, 35, 35, 0.9);
+}
+
+#About button {
+    background-color: rgb(36, 35, 35);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 18px;
+    font-size: 14px;
+    font-family: bold;
+    color: rgb(255, 255, 255);
+    width: 170px;
+    border: none;
+    cursor: pointer;
+}
+#About button:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+
+    /*end of About*/
+
+
+    /*services*/
+#services{
+    height: 10vh;
+
+}
+
+#map {
+    padding-top: 50%;
+    position: relative;
+} 
+
+#map iframe{
+   height: 100%;
+   width: 765px;
+   left: 0;
+   top: 0;
+   position: absolute;
+}
+
+/*end of services*/
+}
+
+
+
+
+/*end of iphone XR*/
